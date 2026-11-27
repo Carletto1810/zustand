@@ -510,3 +510,8 @@ Some users may want to extend Zustand's feature set which can be done using thir
 ## Comparison with other libraries
 
 - [Difference between zustand and other state management libraries for React](https://zustand.docs.pmnd.rs/learn/getting-started/comparison)
+
+
+## Persist con sessionStorage
+
+Per tenere lo stato solo per la scheda aperta si passa `storage: createJSONStorage(() => sessionStorage)` al middleware `persist`.
