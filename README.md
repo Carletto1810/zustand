@@ -510,3 +510,8 @@ Some users may want to extend Zustand's feature set which can be done using thir
 ## Comparison with other libraries
 
 - [Difference between zustand and other state management libraries for React](https://zustand.docs.pmnd.rs/learn/getting-started/comparison)
+
+
+## Selettori con piu' valori
+
+Quando un selettore restituisce un oggetto nuovo a ogni render, usare `useShallow` evita render inutili.
